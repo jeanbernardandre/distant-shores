@@ -1,0 +1,99 @@
+@media screen and (max-width: 760px) {
+	h2.page {
+		font-size: 1.2em;
+	}
+}
+@media screen and (min-width: 761px) {
+	h2.page {
+		font-size: 2em;
+	}
+}
+
+a.navbar-item {
+	&.baisse {
+		padding-top: 1.1em;
+	}
+	// padding: .3em 0 0 0;
+}
+@media screen and (max-width: 760px) {
+	.navbar-brand {
+		.is-hidden-tablet {
+			padding: 0 0 0 0.7em;
+		}
+	}
+
+	.field.is-grouped {
+		display: flex;
+		justify-content: space-between;
+        margin: 0 2em;
+
+
+
+		.navbar-item {
+			font-size: 1.1em;
+			padding: 0.2rem;
+		}
+	}
+}
+
+a.navbar-item.is-active,
+a.navbar-item:hover,
+a.navbar-link.is-active,
+a.navbar-link:hover {
+	background-color: $purple;
+	color: $grey;
+}
+
+.navbar-end a.navbar-item {
+	font-size: 1.8em;
+}
+
+.navbar-end a.navbar-item:link,
+.navbar-end a.navbar-item:visited {
+	color: darken($grey, 20%);
+}
+
+.navbar-end a.navbar-item:hover {
+	color: lighten($grey, 20%);
+}
+
+#navMenubd-example {
+	@media screen and (max-width: 760px) {
+		&.is-active {
+			background-color: $purple;
+
+			a.navbar-item:link,
+			a.navbar-item:visited {
+				background-color: $purple;
+			}
+
+			a.navbar-item:active,
+			a.navbar-item:hover {
+				background-color: darken($grey, 20%);
+			}
+		}
+	}
+}
+
+.navbar-end {
+	padding-right: 1em;
+}
+
+section.brand {
+	background-color: lighten($grey, 3%);
+	border-bottom: 1px solid $grey;
+
+	h3 {
+		padding: 0.4em 0 0.8em 1.2em;
+		font-size: 0.8em;
+	}
+}
+
+.navbar-burger {
+	margin-top: 0.4em;
+}
+
+span.icon.baisse {
+	font-size: 1.2em;
+	padding-top: 0.4em;
+}

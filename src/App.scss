@@ -1,0 +1,291 @@
+//@import 'compass/reset'; //@import 'spacing_helper';
+/* cd c:/uwamp/www/distant-shores/wp-content/themes/seadiorama & compass watch */
+// @import '../js/dist/css/jquery.mb.YTPlayer.min.css';
+// @import '../js/jBox.css';
+// @import '../js/jBox.Image.css';
+@import 'partials/variables';
+@import 'partials/form';
+@import 'partials/head';
+@import 'partials/text';
+@import 'partials/slider';
+@import 'partials/footer';
+@import 'partials/purplepage';
+@import 'partials/jbox-intro';
+@import 'partials/blogmasonry';
+@import 'partials/video';
+@import 'partials/retourhdp';
+@import 'partials/blogsingle';
+@import 'partials/blogbox';
+
+body,
+html {
+	font-family: $fonttexte;
+	font-size: 1.15em;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: $fonttexte;
+	@media screen and (max-width: 760px) {
+		padding-left: 0.4em;
+	}
+
+}
+
+.section {
+	padding: 1rem;
+}
+
+.columns {
+	border-top: 1px solid darken($grey, 30%);
+}
+
+.column {
+	padding: 1em 2em;
+	@media screen and (max-width: 760px) {
+		padding: 1em;
+	}
+}
+
+section.illustration {
+	background: #fff;
+/*	max-height: 650px;*/
+}
+
+.vignette {
+	padding-top: 1em;
+
+	.columns {
+		border-top: 0 solid lighten($grey, 30%) !important;
+
+		.column {
+			border: 1px solid darken($grey,5%);
+			padding: 2em 2.5em;
+			font-size: 0.8em;
+			overflow: hidden;
+			/*       margin: 1rem;
+*/
+		}
+
+		img {
+			margin: 0 0 1em;
+			position: relative;
+		}
+
+		p {
+			line-height: 1.4em;
+			@media screen and (max-width: 760px) {
+				font-size: 0.86em;
+			}
+			@media screen and (min-width: 761px) {
+				font-size: 0.8em;
+			}
+		}
+		/* Faire un lien sur une div */
+
+	// 	span {
+	// 		position: absolute;
+	// 		width: 100%;
+	// 		height: 100%;
+	// 		top: 0;
+	// 		left: 0;
+	// 		z-index: 1;
+	// 		/* fixes overlap error in IE7/8,
+  // make sure you have an empty gif */
+	// 		background-image: url("img/trans.png");
+	// 	}
+	}
+}
+/* marquee! */
+
+.marquee {
+	width: 100%;
+	overflow: hidden;
+	border-top: 1px solid darken($grey,0%);
+	border-bottom: 1px solid darken($grey,0%);
+	padding: 0.6em 0;
+	background-color: lighten($grey,2%);
+	font-family: $fonttitre;
+	@media screen and (max-width: 760px) {
+		background-color: lighten($grey,2%);
+	}
+}
+/* la div uniuqmenet présente sur mobile */
+
+.accrochemobile {
+	font-size: 2em;
+	line-height: 1.3em;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+
+    h1 {
+        font-size: 3rem;
+        color: $white;
+        text-align: center;
+        text-shadow: 2px 2px 2px #000000;
+        padding: 2em .2em;
+    }
+}
+
+.m-md {
+	position: relative;
+	float: left;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+.photo {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 80%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s ease-out;
+}
+
+/* changement de curseur sur les slides */
+.slide {
+	cursor: url("img/cursor.png"), auto;
+}
+/* weird bug.. on mobile */
+.columns {
+	width: 104%;
+}
+
+.dslogo {
+	@media screen and (max-width: 760px) {
+		width: 220px;
+	}
+	@media screen and (min-width: 761px) {
+		width: 300px;
+	}
+}
+
+.more {
+	a {
+		text-transform: uppercase;
+	}
+	@media screen and (max-width: 760px) {
+		font-size: 1.2em;
+	}
+	@media screen and (min-width: 761px) {
+		font-size: 2em;
+	}
+}
+
+h1.header-page {
+	font-size: 1.1em;
+	font-weight: normal;
+	color: $purple;
+}
+
+//centrer le loader
+
+#wrapper {
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    width:10em;
+    height:10em;
+    margin-top: -5em; /*set to a negative number 1/2 of your height*/
+    margin-left: -5em; /*set to a negative number 1/2 of your width*/
+  //  border: 1px solid #ccc;
+    background-color: #f3f3f3;
+}
+.loading {
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+/* Transparent Overlay */
+.loading:before {
+  content: '';
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+}
+/*centrer petites boites*/
+.css-jxiqlq{
+	width: 2em;
+	margin:0 auto;
+}
+
+.navbar-end{
+	@media screen and (max-width: 760px) {
+		width: 100%;
+		a{
+			float:left;
+			.icon{
+				font-size: 1.2em;
+				width: 1.2em;
+			}
+		}
+	}
+}
+section.brand{
+	@media screen and (max-width: 760px) {
+		padding-top:0.4em;
+		padding-left:0.8em;
+		//clear: both;
+	}
+}
+main{
+	@media screen and (max-width: 760px) {
+		clear: both;
+	}
+}
+.links{
+	@media screen and (max-width: 760px) {
+		margin-bottom:2em;
+	}
+}
+h1{
+	@media screen and (max-width: 760px) {
+	line-height: 1.4em;
+	}
+}
+
+.purplepage .bio {
+	@media screen and (max-width: 760px) {
+		padding: 1em 0em 0 1.4em;
+	}
+}
+.more {
+	padding: 1em 0 1em 1.2em ;
+	a:link, a:visited {
+		color: #f13ab8;
+	}
+}
+.pulsate {
+	-webkit-animation: pulsate 1s ease-out;
+	-webkit-animation-iteration-count: infinite;
+	opacity: 0.5;
+}
+@-webkit-keyframes pulsate {
+	0% {
+		opacity: 0.5;
+	}
+	50% {
+		opacity: 1.0;
+	}
+	100% {
+		opacity: 0.5;
+	}
+}

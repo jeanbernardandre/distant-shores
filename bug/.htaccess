@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www\.)?jbadiorama\.com$ [NC]
+RewriteRule ^(.*)$ https://www.jbadiorama.com/index.html [R=301,L]
