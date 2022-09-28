@@ -7,7 +7,6 @@ import BodyClassName from 'react-body-classname';
 import {ADDRESS_V2} from '../../constants';
 import './Home.css';
 import Homediorama from './../Homediorama';
-import Blogbox from './../Blogbox';
 import NewsBox from '../NewsBox';
 
 class Home extends Component
@@ -177,7 +176,6 @@ class Home extends Component
                         {diorama.acf.marquee}
                     </Marquee>
                 </div>
-                <Blogbox/>
                 <section className="container vignette">
                     <div className="column is-one-third">
                         Latest dioramas
