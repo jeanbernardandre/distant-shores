@@ -1,4 +1,6 @@
-//@import 'compass/reset'; //@import 'spacing_helper';
+@import-normalize;
+@import 'partials/bulma.min.css';
+//@import 'spacing_helper';
 /* cd c:/uwamp/www/distant-shores/wp-content/themes/seadiorama & compass watch */
 // @import '../js/dist/css/jquery.mb.YTPlayer.min.css';
 // @import '../js/jBox.css';
@@ -21,6 +23,8 @@ body,
 html {
 	font-family: $fonttexte;
 	font-size: 1.15em;
+	  margin: 0;
+	  padding: 0;
 }
 
 h1 {

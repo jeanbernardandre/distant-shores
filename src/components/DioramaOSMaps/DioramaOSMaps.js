@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './DioramaOSMaps.css';
 import {ADDRESS_PAGES, ADDRESS_V2, CATEGORIE_DIORAMA, LOADER_COLOR, SECONDARY_COLOR, PAGE_MAPS} from '../../constants';
 import {Link} from 'react-router-dom';
-import {Map as LeafletMap, Marker, Popup , GeoJSON} from 'react-leaflet';
+import {Map as LeafletMap, MapContainer, Marker, Popup , GeoJSON} from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import worldGeoJSON from 'geojson-world-map';
@@ -99,8 +99,8 @@ class DioramaOSMaps extends Component {
     render() {
         let {dioramas, pageMaps, loadingMap} = this.state;
         const iconPerson = new L.Icon({
-            iconUrl: require('../../img/markerb.svg'),
-            iconRetinaUrl: require('../../img/markerb.svg'),
+            iconUrl: require('../../img/markerb.svg').default,
+            iconRetinaUrl: require('../../img/markerb.svg').default,
             iconSize: new L.Point(10, 10),
             className: 'leaflet-div-icon'
         });
@@ -116,14 +116,14 @@ class DioramaOSMaps extends Component {
         }
 
         const renderedMarkers = (dioramas && dioramas.length > 0) ? dioramas.map(diorama => {
-                return (
-                    <Marker icon={iconPerson} key={diorama.id} position={[diorama.acf.gmapes.lat, diorama.acf.gmapes.lng]}>
-                        {diorama.title.rendered && <Popup>
-                            <span><Link to = {`/Diora/${diorama.id}`}> {diorama.title.rendered}</Link></span>
-                        </Popup>}
-                    </Marker>
-                )
-            }): null;
+        return (
+            <Marker icon={iconPerson} key={diorama.id} position={[diorama.acf.gmapes.lat, diorama.acf.gmapes.lng]}>
+                {diorama.title.rendered && <Popup>
+                    <span><Link to = {`/Diorama/${diorama.id}`}> {diorama.title.rendered}</Link></span>
+                </Popup>}
+            </Marker>
+        )
+    }): null;
 
         return (
             <div className="maps">
@@ -136,7 +136,7 @@ class DioramaOSMaps extends Component {
                     }}/>
                 </div>
                 <div className="leafletwrapper">
-                    <LeafletMap
+                    <MapContainer
                         center={[50, 10]}
                         zoom={2}
                         maxZoom={10}
@@ -160,7 +160,7 @@ class DioramaOSMaps extends Component {
                         <React.Fragment>
                             {renderedMarkers}
                         </React.Fragment>
-                    </LeafletMap>
+                    </MapContainer>
                 </div>
             </div>
 

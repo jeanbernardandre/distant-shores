@@ -3,7 +3,7 @@ import './Newsbox.css';
 import {CircleLoader} from 'react-spinners';
 import {LOADER_COLOR, NEWSBOXADDRESS} from '../../constants';
 import {Link} from "react-router-dom";
-import Img from 'react-image';
+import {Img} from 'react-image';
 
 
 class dioramasBox extends Component {
@@ -67,13 +67,13 @@ class dioramasBox extends Component {
         let newBox =
             dioramas.map((diorama, index) => {
             const dioramaCat = parseInt(diorama.categories[0]);
-            let plus = dioramaCat === 14 ? <Link to={`/Diora/${diorama.id}`} className="plus">+</Link> : '';
+            let plus = dioramaCat === 14 ? <Link to={`/Diorama/${diorama.id}`} className="plus">+</Link> : '';
 
             return (
                 <div className="newsboxInline" key={index} id={`suite-${index}`}>
                     <div className="item_d">
                         {dioramaCat === 14 &&
-                        <Link to={`/Diora/${diorama.id}`}>
+                        <Link to={`/Diorama/${diorama.id}`}>
 
                             <Img
                                 alt={diorama.title}
@@ -107,7 +107,7 @@ class dioramasBox extends Component {
                     </div>
                     <div className="item_d">
                         {dioramaCat === 14 &&
-                            <Link to={`/Diora/${diorama.id}`}><h2 dangerouslySetInnerHTML={{__html: diorama.title.rendered}}></h2></Link>
+                            <Link to={`/Diorama/${diorama.id}`}><h2 dangerouslySetInnerHTML={{__html: diorama.title.rendered}}></h2></Link>
                         }
                         {dioramaCat !== 14 &&
                             <h2 dangerouslySetInnerHTML={{__html: diorama.title.rendered}}></h2>

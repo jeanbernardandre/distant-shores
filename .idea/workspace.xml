@@ -1,69 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="302f49ae-b0aa-4553-97be-1d5d95918daa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/sendget.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bug/sqli-ajax.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    <list default="true" id="fe6940f8-52b3-497d-94d4-69817e78fa56" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Homediorama/Homediorama.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Main/Main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/src/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AutoC/AutoC.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/_blogbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AutoC/AutoC.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AutoC/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Blogbox/Blogbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Blogbox/Blogbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Contact/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Contact/Contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Diora/Diora.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Diora/Diora.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DioraMaps/DioraMaps.bak.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DioraMaps/DioraMaps.bk.util.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DioraMaps/DioraMaps.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DioraMaps/DioraMaps.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DioraMaps/DioraMaps.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DioraMaps/fancyMapsStyle.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DioraMaps/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Diorabox/Diorabox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Diorabox/Diorabox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dioralist/Dioralist-bk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dioralist/Dioralist.3bk2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dioralist/Dioralist.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dioralist/Dioralist.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Dioralist/Dioralist.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dioralist/Dioralist.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DioralistTags/DioralistTags.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DioralistTags/DioralistTags.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DioralistTags/DioralistTags.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DioralistTags/DioralistTags.tag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/DioralistTags/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Diorama/Diorama.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Diorama/Diorama.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.bak.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home/Home.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Home/Homebk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Homediorama/Homediorama.bak.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Homediorama/Homediorama.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Homediorama/Homediorama.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewsBox/NewsBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsBox/NewsBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewsBox/Newsbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsBox/Newsbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewsBox/Newsbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewsBox/Newsbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tag/Tag.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tag/Tag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tag/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tags/Tags.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tags/Tags.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tags/Tags2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tags/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/constants/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Main/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Main/Main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Nav/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Nav/Nav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/_head.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/_head.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/_purplepage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/_purplepage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/partials/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/partials/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,166 +22,74 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/components/Homediorama/Homediorama.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/containers/Nav/Nav.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/containers/Main/Main.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/partials/_blogbox.scss" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/partials/_head.scss" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/components/Home/Home.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/public/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Diora/Diora.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/components/Diorabox/Diorabox.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/components/NewsBox/NewsBox.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/constants/index.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/components/Blogbox/Blogbox.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Dioralist/Dioralist.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Diorama/Diorama.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/DioramaOSMaps/DioramaOSMaps.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Home/Home.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/components/Homediorama/Homediorama.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/containers/Main/Main.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/containers/Nav/Nav.js" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="PhpServers">
-    <servers />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="1V4FxoTrNPU789Wr9Vu1bBcmS0R" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2ByOjKLeMgAifkyv83YReWZM9FE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="FullScreen" value="false" />
-    <property name="JavaScriptLanguageLevel" value="JSX" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
-    <property name="vue.rearranger.settings.migration" value="true" />
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/var/www/html/distant-2022/src/components/Homediorama&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Homediorama" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="302f49ae-b0aa-4553-97be-1d5d95918daa" name="Default" comment="" />
-      <created>1536425703905</created>
+      <changelist id="fe6940f8-52b3-497d-94d4-69817e78fa56" name="Changes" comment="" />
+      <created>1657874992022</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1536425703905</updated>
-      <workItem from="1539362102345" duration="599000" />
-      <workItem from="1539362735334" duration="4365000" />
-      <workItem from="1540926836373" duration="670000" />
-      <workItem from="1548065259992" duration="978000" />
-      <workItem from="1548071349061" duration="620000" />
-      <workItem from="1548076632353" duration="398000" />
-      <workItem from="1548080437248" duration="2060000" />
-      <workItem from="1548086453682" duration="831000" />
-      <workItem from="1550235533074" duration="798000" />
-      <workItem from="1550478063470" duration="755000" />
-      <workItem from="1550498494762" duration="1207000" />
-      <workItem from="1550752524810" duration="911000" />
-      <workItem from="1550753592960" duration="4655000" />
-      <workItem from="1550845335597" duration="3847000" />
-      <workItem from="1551080672648" duration="11594000" />
-      <workItem from="1551092417829" duration="3087000" />
-      <workItem from="1551358209732" duration="5841000" />
-      <workItem from="1551962819447" duration="1787000" />
-      <workItem from="1552499744307" duration="5032000" />
-      <workItem from="1552551295277" duration="519000" />
-      <workItem from="1552901375868" duration="629000" />
-      <workItem from="1552906439714" duration="71000" />
-      <workItem from="1552909951456" duration="6696000" />
-      <workItem from="1552930583385" duration="3860000" />
-      <workItem from="1552981896110" duration="47000" />
-      <workItem from="1552999969635" duration="1164000" />
-      <workItem from="1553085702525" duration="2000000" />
-      <workItem from="1553089637270" duration="335000" />
-      <workItem from="1558199598746" duration="1663000" />
-      <workItem from="1569230397779" duration="1908000" />
-      <workItem from="1569325344767" duration="92000" />
-      <workItem from="1569327985264" duration="606000" />
-      <workItem from="1571236141687" duration="954000" />
-      <workItem from="1571238856561" duration="303000" />
-      <workItem from="1576504711004" duration="201000" />
-      <workItem from="1585150168699" duration="2805000" />
-      <workItem from="1585208667426" duration="599000" />
-      <workItem from="1586259079707" duration="9901000" />
-      <workItem from="1586329193666" duration="108000" />
-      <workItem from="1586344724305" duration="635000" />
-      <workItem from="1586414865586" duration="238000" />
-      <workItem from="1586438082519" duration="339000" />
-      <workItem from="1586438801354" duration="613000" />
-      <workItem from="1586501110359" duration="1000" />
-      <workItem from="1586950782661" duration="1263000" />
-      <workItem from="1587019063556" duration="564000" />
-      <workItem from="1587386770270" duration="1456000" />
-      <workItem from="1587451353833" duration="599000" />
-      <workItem from="1587471250191" duration="1847000" />
-      <workItem from="1587556259968" duration="2234000" />
-      <workItem from="1587625348873" duration="2000" />
-      <workItem from="1587643969549" duration="621000" />
-      <workItem from="1587649705762" duration="1258000" />
-      <workItem from="1588056399840" duration="1000" />
-      <workItem from="1588254119286" duration="1241000" />
-      <workItem from="1588257592391" duration="394000" />
-      <workItem from="1588317654053" duration="5191000" />
-      <workItem from="1588333642994" duration="599000" />
-      <workItem from="1588574426549" duration="617000" />
-      <workItem from="1588599233827" duration="16000" />
-      <workItem from="1588751415662" duration="75000" />
-      <workItem from="1589210128212" duration="14000" />
-      <workItem from="1589290566255" duration="5083000" />
-      <workItem from="1589353007875" duration="1447000" />
-      <workItem from="1589369158991" duration="8160000" />
-      <workItem from="1589438124939" duration="22000" />
-      <workItem from="1589461192874" duration="3983000" />
-      <workItem from="1589467138908" duration="1760000" />
-      <workItem from="1589524328286" duration="1321000" />
-      <workItem from="1590405546880" duration="120000" />
-      <workItem from="1590405722291" duration="505000" />
-      <workItem from="1590475170235" duration="599000" />
-      <workItem from="1591789358217" duration="942000" />
-      <workItem from="1641380186101" duration="20000" />
+      <updated>1657874992022</updated>
+      <workItem from="1657874993249" duration="7720000" />
+      <workItem from="1658145234967" duration="1147000" />
+      <workItem from="1658317862089" duration="2542000" />
+      <workItem from="1661495637878" duration="5392000" />
+      <workItem from="1661523906238" duration="3361000" />
+      <workItem from="1661959339157" duration="7113000" />
+      <workItem from="1662099320098" duration="2648000" />
+      <workItem from="1662136877536" duration="1713000" />
+      <workItem from="1662357375775" duration="5000" />
+      <workItem from="1662378847216" duration="659000" />
+      <workItem from="1662531575716" duration="2237000" />
+      <workItem from="1662539752716" duration="1299000" />
+      <workItem from="1662624765059" duration="3481000" />
+      <workItem from="1662633223187" duration="1986000" />
+      <workItem from="1664369670011" duration="1326000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="2541" y="315" width="424" height="522" key="FileChooserDialogImpl" timestamp="1589292948822">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2541" y="315" width="424" height="522" key="FileChooserDialogImpl/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1589292948822" />
-    <state x="2870" y="241" width="760" height="568" key="find.popup" timestamp="1591790285372">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2870" y="241" width="760" height="568" key="find.popup/0.27.1920.1053/1920.0.1920.1080@1920.0.1920.1080" timestamp="1591790285372" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
 import './Main.css';
-import { Switch, Route} from 'react-router-dom';
+import {Routes, Route} from 'react-router-dom';
 import Diora from './../../components/Diora'; //liste
 import Home from './../../components/Home';
 import About from './../../components/About';
 import NotFound from './../../components/NotFound';
+import Diorama from './../../components/Diorama';
 
 /*
 Erreur ligne 26 en extraProps
@@ -15,12 +16,14 @@ class Main extends Component
   render() {
     return (
       <main id="main">
-         <Switch>
-           <Route exact path='/' component={Home}/>
-           <Route path='/diora' component={Diora}/>
-           <Route exact path='/about' component={About}/>
-           <Route component={ NotFound } />
-         </Switch>
+         <Routes>
+           <Route exact path='/' element={<Home />}/>
+           <Route path='/diora/*' element={<Diora />}/>
+           <Route exact path='/about' element={<About />}/>
+           <Route exact path='/diorama/*' element={<Diorama />}/>
+           <Route element={ NotFound } />
+         </Routes>
+          <div className="sentinel"></div>
        </main>
     );
   }

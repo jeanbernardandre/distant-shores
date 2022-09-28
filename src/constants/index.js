@@ -1,7 +1,7 @@
-export const ROOT_ADRESS = 'http://dswp.local/';
-export const DOMAIN_NAME = 'http://localhost:3000/';
-/*export const DOMAIN_NAME = 'https://www.distant-shores.com/';
-export const ROOT_ADRESS = 'https://www.distant-shores.com/wp/';*/
+/*export const ROOT_ADRESS = 'http://dswp.local/';
+export const DOMAIN_NAME = 'http://localhost:3000/';*/
+export const DOMAIN_NAME = 'https://www.distant-shores.com/';
+export const ROOT_ADRESS = 'https://www.distant-shores.com/wp/';
 
 export const ADDRESS_V2 = ROOT_ADRESS + 'wp-json/wp/v2/';
 export const ADDRESS_V3 = ROOT_ADRESS + 'wp-json/acf/V3/';

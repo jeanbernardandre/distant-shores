@@ -5,9 +5,9 @@ import {
     LOADER_COLOR,
     ADDRESS_DIORAMAS_LIMIT,
 } from './../../constants';
-import {InfiniteScroll} from 'react-simple-infinite-scroll'
+import {InfiniteScroll} from 'react-simple-infinite-scroll';
 import {Link} from "react-router-dom";
-import Img from 'react-image';
+import {Img} from 'react-image';
 
 class Homediorama extends Component
 {
@@ -86,13 +86,13 @@ class Homediorama extends Component
 /*
             console.log(dioramaCat);
 */
-            let plus = dioramaCat === 2 ? <Link to={`/Diora/${diorama.id}`} className="plus">+</Link> : '';
+            let plus = dioramaCat === 2 ? <Link to={`/Diorama/${diorama.id}`} className="plus">+</Link> : '';
 
             return (
                 <div className='column is-3' key={index} id={`suite-${index}`}>
                     <div className="item_d">
                         {dioramaCat === 2 &&
-                        <Link to={`/Diora/${diorama.id}`}>
+                        <Link to={`/Diorama/${diorama.id}`} key={`${diorama.id}`}>
                             <Img
                                 alt={diorama.title}
                                 src={[
@@ -125,7 +125,9 @@ class Homediorama extends Component
                     </div>
                     <div className="item_d">
                         {dioramaCat === 2 &&
-                            <Link to={`/Diora/${diorama.id}`}><h2 dangerouslySetInnerHTML={{__html: diorama.title.rendered}}></h2></Link>
+                            <Link to={`/Diorama/${diorama.id}`} key={diorama.id}>
+                                <h2 dangerouslySetInnerHTML={{__html: diorama.title.rendered}}></h2>
+                            </Link>
                         }
                         {dioramaCat !== 2 &&
                             <h2 dangerouslySetInnerHTML={{__html: diorama.title.rendered}}></h2>
@@ -160,6 +162,8 @@ class Homediorama extends Component
                         </div>
                     </section>
                 </InfiniteScroll>
+
+
                 {this.state.isLoading && (
                     <div className="loading">
                         <div className='sweet-loading'>

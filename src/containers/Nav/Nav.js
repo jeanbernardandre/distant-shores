@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import './Nav.css';
-import {Link} from 'react-router-dom';
+import {BrowserRouter, Route, Switch, NavLink} from 'react-router-dom';
 import {DOMAIN_NAME, ROOT_ADRESS} from '../../constants';
 import Tooltip from 'rc-tooltip';
 import {isMobile} from 'react-device-detect';
@@ -13,7 +13,18 @@ import jbaMob from './../../img/logo2.svg';
 import jba from './../../img/logo2.svg';
 //import AdvertBox from "../../components/Boxes/AdvertBox";
 
-
+/*class DebugRouter extends BrowserRouter {
+    constructor(props) {
+        super(props);
+        console.log('initial history is: ', JSON.stringify(this.history, null,2))
+        this.history.listen((location, action)=>{
+            console.log(
+                `The current URL is ${location.pathname}${location.search}${location.hash}`
+            )
+            console.log(`The last navigation action was ${action}`, JSON.stringify(this.history, null,2));
+        });
+    }
+}*/
 
 class Nav extends Component {
     constructor() {
@@ -33,6 +44,7 @@ class Nav extends Component {
     componentDidMount() {
         let pageurl = ROOT_ADRESS + 'wp-json/menus/v1/menus/seadiorama';
         fetch(pageurl).then(response => response.json()).then(response => {
+         /*   console.log(response.items);*/
             this.setState({liens: response.items});
         })
     }
@@ -45,11 +57,12 @@ class Nav extends Component {
         let {liens} = this.state;
 
         let ls = liens.map((lien, index) => {
+            /*console.log(this.cinq(lien.title));*/
             return (
-                <Link key={index} to={'/' + this.cinq(lien.title)} className="navbar-item baisse"
+                <NavLink key={index} to={'/' + this.cinq(lien.title)} className="navbar-item baisse"
                       onClick={this.toggleClass}>
                     {lien.title}
-                </Link>)
+                </NavLink>)
         });
 
         let tooltip;
@@ -92,9 +105,9 @@ class Nav extends Component {
                     </div>
                     <div id="navMenubd-example" className={this.state.active ? 'navbar-menu is-active' : 'navbar-menu'}>
                         <div className="navbar-start">
-                            <Link to={'/'} className="navbar-item baisse">
+                            <NavLink to={'/'} className="navbar-item baisse">
                                 Home
-                            </Link>
+                            </NavLink>
                             {ls}
                         </div>
                     </div>

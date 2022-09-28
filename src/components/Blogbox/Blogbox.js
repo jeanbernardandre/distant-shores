@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './Blogbox.css';
 import {RingLoader} from 'react-spinners';
 import {BLOGPOST_DIORAMAS, LOADER_COLOR} from '../../constants';
-import Img from 'react-image';
+import {Img} from 'react-image';
 
 class Blogbox extends Component {
     _isMounted = false;
@@ -78,9 +78,9 @@ class Blogbox extends Component {
         return (
             <div className="black-wrapper">
                 <section className="container vignette">
-                        <div className="column">
-                            {ls}
-                        </div>
+                    <div className="column">
+                        {ls}
+                    </div>
                 </section>
             </div>
         );
